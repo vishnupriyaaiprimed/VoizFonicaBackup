@@ -1,0 +1,37 @@
+<div class="jumbotron jumbotron-fluid">
+    <h1 class="display-4" style="text-align:center">BILL INQUIRY</h1>
+</div>
+<!--comment1-->
+<form>
+    <div class="container text-center">
+        <table>
+            <tr>
+                <th style="text-align: center">Mobile no</th>
+                <th>:</th>
+                <td><input type="text" name="name"></td>
+                <td><button class="btn btn-secondary " style="min-width:15%;min-height:25%" (click)="fn()">Okay</button></td>
+            
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                </tr>
+            <tr>
+                   <td colspan="4">
+                        
+                    <table style="text-align:left" class="table table-secondary">
+                        <tr *ngFor="let b of bill_details">
+                            <th>{{b.left}}</th>
+                            <td>{{b.right}}</td>
+                        </tr>
+                        
+                    </table>
+                    </td>
+                    </tr>
+            
+        </table>
+        <br>
+        <br>
+    </div>
+
+</form>

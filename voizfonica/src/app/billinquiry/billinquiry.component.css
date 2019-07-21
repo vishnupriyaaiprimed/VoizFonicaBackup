@@ -1,0 +1,31 @@
+table {
+    margin: auto;
+    padding: 0;
+    width:50%;
+}
+.table{
+    width:100%;
+    margin:auto;
+}
+.table tr td,.table tr th
+{
+    padding-left:10%;
+}
+.table tr th{
+    
+    padding-right:10%;
+}
+
+
+.jumbotron {
+    margin: 0;
+}
+
+td,
+th {
+    padding-top: 6%;
+}
+
+.container {
+    margin-left: 3%;
+}
